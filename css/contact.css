@@ -1,0 +1,33 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-section h3 {
+    font-size: 32px;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.about-section p {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-links p {
+    margin: 4px;
+}
+
+.about-links {
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 116);
+}

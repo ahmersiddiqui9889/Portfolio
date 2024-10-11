@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(20, 17, 40);
+    color: rgb(216,216,216);
+    font-family: "Lato", sans-serif;
+}
+
+.logo {
+    height: 30px;
+    margin: 15px;
+}
+
+nav {
+    background-color: rgb(24, 35, 56);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    transition-duration: 0.5s;
+    color: rgb(220,220,220);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 8px white;
+}
+
+.tech-container {
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.tech-container > img {
+    height: 100%;
+    margin: 0px 5px;
+}
+
+.menu-container h3 {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin:10px;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+nav .nav-links {
+    padding: 10px;
+}
+
+nav .nav-links > * {
+    font-size: 14px;
+}
+
+
+nav .hamburger-list-container .nav-link {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    nav h3 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    nav .hamburger {
+        display: block;
+        color: white;
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+    nav .nav-links {
+        display: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+section {
+    color: rgb(216,216,216);
+}
+
+p {
+    font-size: 18px;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0px 20px;
+    text-shadow: 0px 0px 8px rgba(216,216,216,0.4);
+    animation: light 4s infinite;
+}
+
+
+
+
+footer {
+    background-color: rgb(58, 93, 187);
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(216,216,216);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 25px;
+}
